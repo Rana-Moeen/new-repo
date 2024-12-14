@@ -5,7 +5,7 @@
     "main": "app.js",
     "scripts": {
       "test": "jest --detectOpenHandles --coverage --collectCoverage",
-      "start": "nodemon app.js",
+      "start": "node app.js",
       "migrate": "knex migrate:latest",
       "seed": "knex seed:run"
     },
